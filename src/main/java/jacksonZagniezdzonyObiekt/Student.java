@@ -2,6 +2,9 @@ package jacksonZagniezdzonyObiekt;
 
 import java.util.Arrays;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Student {
 	
 	private int id;
