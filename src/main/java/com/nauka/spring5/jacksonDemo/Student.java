@@ -1,4 +1,4 @@
-package jacksonDemo;
+package com.nauka.spring5.jacksonDemo;
 
 public class Student {
 	

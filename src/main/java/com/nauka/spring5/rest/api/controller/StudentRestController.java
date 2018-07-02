@@ -26,7 +26,7 @@ public class StudentRestController {
 		students.add(new Student("Anna", "Mucha"));
 		students.add(new Student("Piotr", "Nowak"));
 	}
-
+	
 	@GetMapping("/students")
 	public List<Student> getStudents() {
 		return this.students;

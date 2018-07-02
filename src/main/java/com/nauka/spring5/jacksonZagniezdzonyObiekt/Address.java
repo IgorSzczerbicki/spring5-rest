@@ -1,4 +1,4 @@
-package jacksonZagniezdzonyObiekt;
+package com.nauka.spring5.jacksonZagniezdzonyObiekt;
 
 public class Address {
 
