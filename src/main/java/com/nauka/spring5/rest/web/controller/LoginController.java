@@ -3,8 +3,8 @@ package com.nauka.spring5.rest.web.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@Controller
-public class LoginController {
+//@Controller
+public class LoginController {/*
 
 	@GetMapping("/showLoginPage")
 	public String showLoginPage() {
@@ -14,5 +14,5 @@ public class LoginController {
 	@GetMapping("/access-denied")
 	public String accessDenied() {
 		return "access-denied";
-	}
+	}*/
 }

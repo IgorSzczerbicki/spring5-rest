@@ -8,10 +8,10 @@ public class HomeController {
 
 	@GetMapping("/")
 	public String home() {
-		return "home";
+		return "apiIndex";
 	}
 	
-	@GetMapping("/api")
+	/*@GetMapping("/api")
 	public String gethome() {
 		return "apiIndex";
 	}
@@ -24,5 +24,5 @@ public class HomeController {
 	@GetMapping("/leaders")
 	public String leaders() {
 		return "leaders";
-	}
+	}*/
 }

@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.nauka.spring5.rest.crm.domain.Customer;
 import com.nauka.spring5.rest.crm.service.CustomerService;
 
-@Controller
-@RequestMapping("/customer")
-public class CustomerController {
+/*@Controller
+@RequestMapping("/customer")*/
+public class CustomerController {/*
 	
 	@Autowired
 	private CustomerService customerService;
@@ -57,5 +57,5 @@ public class CustomerController {
 		List<Customer> customers = customerService.searchForClients(searchCriteria);
 		model.addAttribute("customers", customers);
 		return "customer-list";
-	}
+	}*/
 }

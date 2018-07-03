@@ -25,9 +25,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.nauka.spring5.rest.web.domain.CrmUser;
 
-@Controller
-@RequestMapping("/register")
-public class RegistrationController {
+//@Controller
+//@RequestMapping("/register")
+public class RegistrationController {/*
 
 	@Autowired
 	private UserDetailsManager userDetailsManager;
@@ -70,5 +70,5 @@ public class RegistrationController {
 		userDetailsManager.createUser(user);
 		
 		return "registration-confirmation";
-	}
+	}*/
 }
