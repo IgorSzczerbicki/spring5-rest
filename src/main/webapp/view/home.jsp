@@ -25,6 +25,7 @@
 	<p>
 		<a href="${pageContext.request.contextPath}/api/customers/">Rest API - all customers</a><br> 
 		<a href="${pageContext.request.contextPath}/api/customers/2">Rest API - customer 2</a><br>
+		<a href="${pageContext.request.contextPath}/api/customers/666">Rest API - customer 666 (exception)</a><br>
 	</p>
 
 	<security:authorize access="hasRole('MANAGER')">
